@@ -4,12 +4,112 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Yasmin Nouh Webpage</title>
+		
+		<style>
+		/* CLASS NOTES: When you're commenting in CSS and/or Javascript, you use this format. 
+		 * A class name starts with a dot
+			
+		/*
+		 * Define a CSS class to apply to my divs called "assignmentweek2a"
+		 * This class will have three properties
+		 * Fuchsia text, a white border and a grayish background.
+		 */
+		.assignmentweek2a{
+			color:#CC0099;
+			background:#D1D1E0; 
+			border:5px solid purple;
+			margin-right: 5cm;
+			padding-bottom: 2cm;
+		}
+		/*
+		 * This class will have pink text, a yellow border and an orange background.
+		 */
+		.assignmentweek2b{
+			color:#000003;
+			background-color:#D8D8E6;
+			margin-right: 5cm;
+			padding-bottom: 2cm;
+		}
+			
+		</style>
+		
 	</head>
-	<body>
-		<h1>Porftolio</h1>
+	<body> <!--the body is the framing bucket that will display everything on the web page-->
+		<h1>Yasmin Nouh</h1>
 		<!-- I added another header tag and a paragraph underneath -->
 		<h2>About Me</h2>
-		<p>I'm a multimedia journalist who's trying to learn data journalism and data visualization.</p>
+			<p>I'm a multimedia journalist who's trying to 
+			learn data journalism and data visualization.</p>
+			
+		<!-- Make a div with red text inside it -->
+		
+		<div class="assignmentweek2a">
+			I don't know how I feel about my HTML skills as of now.</div>
+		
+		<div class="assignmentweek2b">
+			Perhaps my mind will change towards the end of this class.</div>
+	
+		
+		<script>
+		
+		    // modified myAge so that it reflects my birthdate and not my age
+			var myAge = 07061988;
+			var myLifestory = "I grew up in Los Angeles, Calif.";
+			var myBoolean = true;
+			var myArray = [5,7,3,5,11];
+			// 5 is the number of cities that significantly shaped who I've become: 
+			// LA, Orange County, Cairo and New York.
+			// 7 is how many members are in my immediate family.
+			// 3 is how many years I've been married. 
+			// 5 represents the number of identities I've had to synthesize and reconcile 
+			// throughout my life: American, Muslim, Egyptian, Iranian and female. 
+			// 11 is the number of places I've traveled to in my life. 
+			// I modified the last variable from 1 to 11, because where I've traveled
+			// has influenced how I view and interact with the world.
+			var myRoom = {key1:"books",
+							key2:"sentimentalphotos",
+							key3:"simple",
+							key4:"clean"};
+			
+			console.log(myAge);
+			
+			console.log(myLifestory);
+			
+			console.log(myBoolean);
+			
+			console.log(myArray[4]); 
+			
+			console.log(myRoom);
+			
+			console.log(myRoom.books);
+			console.log(myRoom.sentimentalphotos)
+			console.log(myRoom.simple)
+			console.log(myRoom.clean)
+			
+			/*Below are notes from class in Week 2.
+							
+			var myObject = {aKey:"aValue",
+							key2: "value2"};
+				/*Arrays and objects can contain complex properties 
+						
+			console.log(myArray [2]); /*the log is going to detail what's in that variable 
+			console.log(myNumber);
+			console.log(myObject); /*An object is what I use when I need to put different properties
+			An object has properties like color, shape, texture. Properties means characteristics
+			For example, a presidential candidate has a name, affiliation, etc.
+			However we decide to describe those things, or whatever keys we give them must be unique 
+			So we use the syntax . 
+			console.log(myObject.aKey);
+			console.log(myObject.key2);
+			
+			myObject.aKey = "newValue"; /*Go to my object, go to aKey and put in this string and 
+			it will overwrite whatever was there before so that when you write Console log it will
+			show you new value and Value 2
+			
+			var myRandoBucket; /*can put in a placeholder. 
+			console.log(myRandoBucket); */
+			
+		</script>
 	</body>
 </html>
 
